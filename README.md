@@ -86,28 +86,28 @@ MediConnect is a web-based application designed to simplify the process of booki
 ```bash
 MediConnect/
 │
-├── src/                     # Source code for your project
-│   ├── components/          # Reusable React components
-│   ├── pages/               # Page-level components
-│   ├── assets/              # Static assets (images, icons, etc.)
-│   ├── styles/              # CSS or Tailwind configuration
-│   ├── App.tsx              # Main application file
-│   └── index.tsx            # Entry point
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── styles/
+│   ├── App.tsx
+│   └── index.tsx
 │
-├── public/                  # Public assets (e.g., favicon, index.html)
+├── public/
 │   └── index.html
 │
-├── screenshots/             # Screenshots for README
+├── screenshots/
 │   ├── homepage.png
 │   ├── symptom-checker.png
 │   └── appointments.png
 │
-├── .env                     # Environment variables (not included in GitHub)
-├── .gitignore               # Files and folders to ignore in Git
-├── package.json             # Project metadata and dependencies
-├── README.md                # Project documentation
-├── tsconfig.json            # TypeScript configuration
-└── vite.config.ts           # Vite configuration
+├── .env
+├── .gitignore
+├── package.json
+├── README.md
+├── tsconfig.json
+└── vite.config.ts
 ``` 
 
 ## 📄 License
