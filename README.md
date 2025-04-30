@@ -13,36 +13,19 @@ MediConnect is a web-based application designed to simplify the process of booki
 
 ## Technologies Used
 
-- **Frontend**:
-
-  - HTML, CSS, JavaScript
-  - React.js for building the user interface
-  - Bootstrap for responsive design
-
-- **Backend**:
-
-  - Node.js and Express.js for server-side logic
-  - MongoDB for storing user data, appointment details, and doctor schedules
-
-- **Authentication**:
-
-  - JWT (JSON Web Token) for secure user authentication
-
-- **Notifications**:
-
-  - Twilio for SMS reminders
-  - NodeMailer for email notifications
-
-- **Deployment**:
-
-  - Deployed on Heroku (or specify your deployment platform)
+- React
+- React Router DOM
+- Tailwind CSS
+- Lucide React
+- TypeScript
+- Vite
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/MediConnect.git
+   git clone https://github.com/Aaradhyasonii/MediConnect.git
    ```
 
 2. Navigate into the project directory:
@@ -51,36 +34,19 @@ MediConnect is a web-based application designed to simplify the process of booki
    cd MediConnect
    ```
 
-3. Install the required dependencies for both frontend and backend:
+3. Install dependencies:
+   
+   ```bash
+   npm install
+   ```
 
-   - For Backend (Node.js):
+4. Run the application:
 
-     ```bash
-     cd backend
-     npm install
-     ```
-
-   - For Frontend (React.js):
-
-     ```bash
-     cd frontend
-     npm install
-     ```
-
-4. Configure environment variables for backend (e.g., database connection, JWT secret, API keys for email/SMS service).
-
-5. Start the application:
-
-   - Backend:
-     ```bash
-     npm start
-     ```
-   - Frontend:
-     ```bash
-     npm start
-     ```
-
-6. Open your browser and go to `http://localhost:3000` to start using the application.
+   ```bash
+   npm run dev
+   ```
+  
+5. Open your browser and go to `http://localhost:5173` to start using the application.
 
 ## Usage
 
@@ -100,18 +66,55 @@ MediConnect is a web-based application designed to simplify the process of booki
 
    - Log in to the admin dashboard to manage users, appointments, and system settings.
 
-## Screenshots
+## 📷 Screenshots
+![1](https://github.com/user-attachments/assets/af5a8619-2cec-4816-a285-c9a2a2402113)
+![2](https://github.com/user-attachments/assets/0266b190-4ce4-4af6-94be-67f6dc306048)
+![4](https://github.com/user-attachments/assets/78b7114b-812e-4aa9-8f2d-723aee44e70b)
+![5](https://github.com/user-attachments/assets/9ce89427-f998-4504-8e10-aa76e6c2ceb7)
+![6](https://github.com/user-attachments/assets/64ba906a-9096-4254-a6be-8800c4540502)
+![7](https://github.com/user-attachments/assets/b2760f6e-d3f3-482b-8ea2-ae1e68c2e703)
+![8](https://github.com/user-attachments/assets/764bf982-7c14-47c4-bf23-b089cc7cef09)
+![10](https://github.com/user-attachments/assets/ae7023e5-4293-44bf-b9af-e218b666e724)
+![12](https://github.com/user-attachments/assets/c530fb52-3861-4df3-bdca-d4f80c0c16b8)
+![13](https://github.com/user-attachments/assets/717a2648-faec-4469-9e58-4a711ea7f5c8)
+![14](https://github.com/user-attachments/assets/d61e26df-a0cc-4e88-8c3c-2f5ad9f05d1c)
+![15](https://github.com/user-attachments/assets/a24d2d6b-da41-4c37-b99d-a11f9f496886)
 
 
+## 📁 Folder Structure
 
+```bash
+MediConnect/
+│
+├── src/                     # Source code for your project
+│   ├── components/          # Reusable React components
+│   ├── pages/               # Page-level components
+│   ├── assets/              # Static assets (images, icons, etc.)
+│   ├── styles/              # CSS or Tailwind configuration
+│   ├── App.tsx              # Main application file
+│   └── index.tsx            # Entry point
+│
+├── public/                  # Public assets (e.g., favicon, index.html)
+│   └── index.html
+│
+├── screenshots/             # Screenshots for README
+│   ├── homepage.png
+│   ├── symptom-checker.png
+│   └── appointments.png
+│
+├── .env                     # Environment variables (not included in GitHub)
+├── .gitignore               # Files and folders to ignore in Git
+├── package.json             # Project metadata and dependencies
+├── README.md                # Project documentation
+├── tsconfig.json            # TypeScript configuration
+└── vite.config.ts           # Vite configuration
+``` 
 
-## Contributing
+## 📄 License
 
-We welcome contributions to enhance the features of MediConnect. If you want to contribute, follow these steps:
+This project is licensed under the MIT License.
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-name`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature-name`).
-6. Create a pull request.
+## 📬 Contact
+For any questions, feel free to reach out:
+- Email: aaradhyasoni42@gmail.com
+- GitHub: [aaradhyasonii](https://github.com/aaradhyasonii)
